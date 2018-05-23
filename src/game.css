@@ -1,0 +1,106 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 50px;
+  fill: red;
+}
+.App-header {
+  background-color: #333;
+  height: 80px;
+  padding: 20px;
+  color: white;
+  font-size: 1em;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.button-wrapper {
+  width: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.dialog-size button, .dialog-diff button {
+  background: #407f7f;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  flex: 0 0 40%;
+  margin-bottom: 10px;
+  transition: background-color .1s ease-in-out;
+  font-weight: bold;
+}
+.dialog-size button:hover, .dialog-diff button:hover {
+  background: #0d4d4d;
+}
+.dialog-diff button {
+  flex: 0 0 30%;
+}
+.game-board {
+  width: 500px;
+  margin: 50px auto;
+  color: white;
+}
+.game-data {
+  display: flex;
+  background: #333;
+  justify-content: space-around;
+  height: 60px;
+  align-items: center;
+  border-bottom: 2px solid #fff;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.game-data .App-logo {
+  position: absolute;
+}
+.square {
+  background: #407f7f;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  height: 50px;
+  background-size: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-weight: bold;
+}
+.square p {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: perspective(1px) translateY(-50%);
+}
+.game-play {
+  display: flex;
+  flex-wrap: wrap;
+}
+#message {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  margin: auto;
+  margin-top: 20px;
+  line-height: 0;
+}
+.play-again {
+  background: #407f7f;
+  border: 2px solid #333;
+  color: #fff;
+  font-size: 16px;
+  padding: 5px;
+  transition: background-color .1s ease-in-out;
+  font-weight: bold;
+}
+.play-again:hover {
+  background: #0d4d4d;
+}
