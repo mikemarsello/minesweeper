@@ -1,8 +1,15 @@
 {
-  "main.css": "static/css/main.11e04dff.css",
-  "main.css.map": "static/css/main.11e04dff.css.map",
-  "main.js": "static/js/main.e2976ea6.js",
-  "main.js.map": "static/js/main.e2976ea6.js.map",
-  "static/media/bomb.svg": "static/media/bomb.07f867ca.svg",
-  "static/media/logo.svg": "static/media/logo.fb2d0b51.svg"
+  "main.css": "/minesweeper/build/static/css/main.4296578c.chunk.css",
+  "main.js": "/minesweeper/build/static/js/main.d6878a3f.chunk.js",
+  "main.js.map": "/minesweeper/build/static/js/main.d6878a3f.chunk.js.map",
+  "runtime~main.js": "/minesweeper/build/static/js/runtime~main.6e26028d.js",
+  "runtime~main.js.map": "/minesweeper/build/static/js/runtime~main.6e26028d.js.map",
+  "static/js/2.69272ca3.chunk.js": "/minesweeper/build/static/js/2.69272ca3.chunk.js",
+  "static/js/2.69272ca3.chunk.js.map": "/minesweeper/build/static/js/2.69272ca3.chunk.js.map",
+  "index.html": "/minesweeper/build/index.html",
+  "precache-manifest.cbe50bcfbab3019e5d478110489c216b.js": "/minesweeper/build/precache-manifest.cbe50bcfbab3019e5d478110489c216b.js",
+  "service-worker.js": "/minesweeper/build/service-worker.js",
+  "static/css/main.4296578c.chunk.css.map": "/minesweeper/build/static/css/main.4296578c.chunk.css.map",
+  "static/media/bomb.svg": "/minesweeper/build/static/media/bomb.07f867ca.svg",
+  "static/media/logo.svg": "/minesweeper/build/static/media/logo.fb2d0b51.svg"
 }
